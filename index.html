@@ -19,11 +19,11 @@
 </head>
 <body>
     
-    <main class="container py-5">
+    <main class="container py-md-5 py-4">
 
         <!-- === Serch Section === -->
         <div class="container-fluid">
-        <header class="box pb-5 mb-5">
+        <header class="box pb-5 mb-md-5 mb-4">
 
             <!-- Search Heading -->
             <div class="position-relative orange_box py-1">
@@ -49,31 +49,31 @@
 
             <!-- Search Tabs -->
             <div class="search_tabs_box">
-                <a href="#">
+                <button class="search_tabs" id="all">
                     All
-                </a>
-                <a href="#">
+                </button>
+                <button class="search_tabs" id="business">
                     Business
-                </a>
-                <a href="#">
+                </button>
+                <button class="search_tabs" id="game">
                     Game
-                </a>
-                <a href="#">
+                </button>
+                <button class="search_tabs" id="guild">
                     Guild
-                </a>
-                <a href="#">
+                </button>
+                <button class="search_tabs" id="timeline">
                     Timeline
-                </a>
+                </button>
             </div>
 
         </header>
         </div>
 
         <div class="container-fluid">
-            <main class="row g-5">
+            <main class="row g-md-5 g-4" id="parent">
 
                 <!-- === Timeline === -->
-                <section class="col-lg-6">
+                <section class="col-lg-6 timeline">
                     <div class="box h-100">
                         <div class="orange_box">
                             <h4 class="text-uppercase d-flex justify-content-center align-items-center fw-bold search_heading py-2">
@@ -84,12 +84,12 @@
 
                         <div class="px-4 py-2">
                             <div class="d-flex align-items-center">
-                                <a href="#" class="timeline_img">
+                                <a href="index.html" class="timeline_img">
                                     <img src="assets/img/img1.PNG" width="100%" alt="">
                                 </a>
                                 <div class="timeline_link ps-2">
                                     <div>
-                                        <a href="#">Admin</a>
+                                        <a href="index.html">Admin</a>
                                     </div>
                                     <div class="fw-bold">
                                         Hi
@@ -100,11 +100,11 @@
                                 Hi
                             </div>
                             <div class="timeline_likes">
-                                <a href="#" class="px-2">
+                                <a href="index.html" class="px-2">
                                     0 Likes
                                     <i class="bi bi-heart-fill ps-1"></i>
                                 </a>
-                                <a href="#" class="px-2">
+                                <a href="index.html" class="px-2">
                                     0 Comments
                                     <i class="bi bi-chat-left-text-fill ps-1"></i>
                                 </a>
@@ -113,12 +113,12 @@
 
                         <div class="px-4 py-2">
                             <div class="d-flex align-items-center">
-                                <a href="#" class="timeline_img">
+                                <a href="index.html" class="timeline_img">
                                     <img src="assets/img/img1.PNG" width="100%" alt="">
                                 </a>
                                 <div class="timeline_link ps-2">
                                     <div>
-                                        <a href="#">Admin</a>
+                                        <a href="index.html">Admin</a>
                                     </div>
                                     <div class="fw-bold">
                                         Hi
@@ -129,11 +129,11 @@
                                 Hi
                             </div>
                             <div class="timeline_likes">
-                                <a href="#" class="px-2">
+                                <a href="index.html" class="px-2">
                                     0 Likes
                                     <i class="bi bi-heart-fill ps-1"></i>
                                 </a>
-                                <a href="#" class="px-2">
+                                <a href="index.html" class="px-2">
                                     0 Comments
                                     <i class="bi bi-chat-left-text-fill ps-1"></i>
                                 </a>
@@ -142,12 +142,12 @@
 
                         <div class="px-4 py-2">
                             <div class="d-flex align-items-center">
-                                <a href="#" class="timeline_img">
+                                <a href="index.html" class="timeline_img">
                                     <img src="assets/img/img1.PNG" width="100%" alt="">
                                 </a>
                                 <div class="timeline_link ps-2">
                                     <div>
-                                        <a href="#">Admin</a>
+                                        <a href="index.html">Admin</a>
                                     </div>
                                     <div class="fw-bold">
                                         Hi
@@ -158,11 +158,11 @@
                                 Hi
                             </div>
                             <div class="timeline_likes">
-                                <a href="#" class="px-2">
+                                <a href="index.html" class="px-2">
                                     0 Likes
                                     <i class="bi bi-heart-fill ps-1"></i>
                                 </a>
-                                <a href="#" class="px-2">
+                                <a href="index.html" class="px-2">
                                     0 Comments
                                     <i class="bi bi-chat-left-text-fill ps-1"></i>
                                 </a>
@@ -171,27 +171,27 @@
 
                         </section>
                         <div class="see_all_link py-4">
-                            <a href="#">See All</a>
+                            <a href="index.html">See All</a>
                         </div>
                     </div>
                 </section>
     
                 <!-- === Business Accounts === -->
-                <section class="col-lg-6">
-                    <div class="box h-100">
+                <section class="col-lg-6 business">
+                    <div class="box h-100 d-flex flex-column">
                         <div class="orange_box">
                             <h4 class="text-uppercase d-flex justify-content-center align-items-center fw-bold search_heading py-2">
                                 Business Accounts
                             </h4>
                         </div>
-                        <section class="p-3">
+                        <section class="p-3" style="flex: 1 1 0;">
 
                             <div class="d-flex align-items-center py-2">
-                                <a href="#" class="account_img">
+                                <a href="index.html" class="account_img">
                                     <img src="assets/img/img2.PNG" width="100%" alt="" style="filter: grayscale(100%);">
                                 </a>
-                                <div class="accounts_box ps-2 pe-3 py-1">
-                                    <a href="#" class="accounts_heading">
+                                <div class="accounts_box align-items-center ps-2 pe-3 py-1">
+                                    <a href="index.html" class="accounts_heading">
                                         Superfly
                                     </a>
                                     <div class="d-flex flex-column align-items-center justify-content-center">
@@ -199,22 +199,22 @@
                                             Retired
                                         </div>
                                         <button class="accounts_btn mt-1">
-                                            <img src="assets/img/img4.PNG" width="15px" alt="">
+                                            <img src="assets/img/img4.PNG" class="account_skull_img" alt="">
                                         </button>
                                         <div class="accounts_time">
                                             <span>9:10 EST</span>
-                                            <img src="assets/img/img5.PNG" width="20px" alt="">
+                                            <img src="assets/img/img5.PNG" class="account_flag_img" alt="">
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="d-flex align-items-center py-2">
-                                <a href="#" class="account_img">
+                                <a href="index.html" class="account_img">
                                     <img src="assets/img/img2.PNG" width="100%" alt="">
                                 </a>
-                                <div class="accounts_box ps-2 pe-3 py-1">
-                                    <a href="#" class="accounts_heading">
+                                <div class="accounts_box align-items-center ps-2 pe-3 py-1">
+                                    <a href="index.html" class="accounts_heading">
                                         Superfly
                                     </a>
                                     <div class="d-flex flex-column align-items-center justify-content-center">
@@ -222,22 +222,22 @@
                                             Retired
                                         </div>
                                         <button class="accounts_btn mt-1">
-                                            <img src="assets/img/img4.PNG" width="15px" alt="">
+                                            <img src="assets/img/img4.PNG" class="account_skull_img" alt="">
                                         </button>
                                         <div class="accounts_time">
                                             <span>9:10 EST</span>
-                                            <img src="assets/img/img5.PNG" width="20px" alt="">
+                                            <img src="assets/img/img5.PNG" class="account_flag_img" alt="">
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="d-flex align-items-center py-2">
-                                <a href="#" class="account_img">
+                                <a href="index.html" class="account_img">
                                     <img src="assets/img/img2.PNG" width="100%" alt="">
                                 </a>
-                                <div class="accounts_box ps-2 pe-3 py-1">
-                                    <a href="#" class="accounts_heading">
+                                <div class="accounts_box align-items-center ps-2 pe-3 py-1">
+                                    <a href="index.html" class="accounts_heading">
                                         Superfly
                                     </a>
                                     <div class="d-flex flex-column align-items-center justify-content-center">
@@ -245,11 +245,11 @@
                                             Retired
                                         </div>
                                         <button class="accounts_btn mt-1">
-                                            <img src="assets/img/img4.PNG" width="15px" alt="">
+                                            <img src="assets/img/img4.PNG" class="account_skull_img" alt="">
                                         </button>
                                         <div class="accounts_time">
                                             <span>9:10 EST</span>
-                                            <img src="assets/img/img5.PNG" width="20px" alt="">
+                                            <img src="assets/img/img5.PNG" class="account_flag_img" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -257,13 +257,13 @@
 
                         </section>
                         <div class="see_all_link py-4">
-                            <a href="#">See All</a>
+                            <a href="index.html">See All</a>
                         </div>
                     </div>
                 </section>
 
                 <!-- === Game Accounts === -->
-                <section class="col-lg-6">
+                <section class="col-lg-6 game">
                     <div class="box h-100">
                         <div class="orange_box">
                             <h4 class="text-uppercase d-flex justify-content-center align-items-center fw-bold search_heading py-2">
@@ -272,70 +272,81 @@
                         </div>
                         <section class="p-3">
 
-                            <div class="d-flex align-items-center py-2">
-                                <a href="#" class="account_img">
+                            <div class="d-flex align-items-center flex-md-row flex-column py-2">
+                                <a href="index.html" class="account_img">
                                     <img src="assets/img/img2.PNG" width="100%" alt="">
                                 </a>
                                 <div class="accounts_box ps-2 pe-3 py-1">
-                                    <a href="#" class="accounts_heading">
+                                    <div class="pt-md-0 pt-2">
+                                        <a href="index.html" class="accounts_heading">
                                         Superfly
                                     </a>
-                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                    <span class="accounts_username">@golner900</span>
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center justify-content-center py-md-0 py-2">
                                         <div class="accounts_badge accounts_badge_ldtr">
                                             LDTR
                                         </div>
                                         <button class="accounts_btn mt-1">
-                                            <img src="assets/img/img4.PNG" width="15px" alt="">
+                                            <img src="assets/img/img4.PNG" class="account_skull_img" alt="">
                                         </button>
                                         <div class="accounts_time">
                                             <span>9:10 EST</span>
-                                            <img src="assets/img/img5.PNG" width="20px" alt="">
+                                            <img src="assets/img/img5.PNG" alt="" class="account_flag_img">
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="d-flex align-items-center py-2">
-                                <a href="#" class="account_img">
+                            <div class="d-flex align-items-center flex-md-row flex-column py-2">
+                                <a href="index.html" class="account_img">
                                     <img src="assets/img/img2.PNG" width="100%" alt="" style="filter: grayscale(100%);">
                                 </a>
                                 <div class="accounts_box ps-2 pe-3 py-1">
-                                    <a href="#" class="accounts_heading">
+                                    <div class="pt-md-0 pt-2">
+                                        <a href="index.html" class="accounts_heading">
                                         SuperflySuperfly
                                     </a>
-                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                    <span class="accounts_username">@golner900</span>
+                                    <span class="accounts_subheading_silver">Marvel Strike Force Superforce</span>
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center justify-content-center py-md-0 py-2">
                                         <div class="accounts_badge accounts_badge_retired">
                                             Retired
                                         </div>
                                         <button class="accounts_btn mt-1">
-                                            <img src="assets/img/img4.PNG" width="15px" alt="">
+                                            <img src="assets/img/img4.PNG" class="account_skull_img" alt="">
                                         </button>
                                         <div class="accounts_time">
                                             <span>9:10 EST</span>
-                                            <img src="assets/img/img5.PNG" width="20px" alt="">
+                                            <img src="assets/img/img5.PNG" alt="" class="account_flag_img">
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="d-flex align-items-center py-2">
-                                <a href="#" class="account_img">
+                            <div class="d-flex align-items-center flex-md-row flex-column py-2">
+                                <a href="index.html" class="account_img">
                                     <img src="assets/img/img2.PNG" width="100%" alt="">
                                 </a>
                                 <div class="accounts_box ps-2 pe-3 py-1">
-                                    <a href="#" class="accounts_heading">
+                                    <div class="pt-md-0 pt-2">
+                                        <a href="index.html" class="accounts_heading">
                                         Superfly
                                     </a>
-                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                    <span class="accounts_username">@golner900</span>
+                                    <span class="accounts_subheading">Marvel Strike Force Superforce</span>
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center justify-content-center py-md-0 py-2">
                                         <div class="accounts_badge accounts_badge_ldtr">
                                             LDTR
                                         </div>
                                         <button class="accounts_btn mt-1">
-                                            <img src="assets/img/img4.PNG" width="15px" alt="">
+                                            <img src="assets/img/img4.PNG" class="account_skull_img" alt="">
                                         </button>
                                         <div class="accounts_time">
                                             <span>9:10 EST</span>
-                                            <img src="assets/img/img5.PNG" width="20px" alt="">
+                                            <img src="assets/img/img5.PNG" alt="" class="account_flag_img">
                                         </div>
                                     </div>
                                 </div>
@@ -343,13 +354,13 @@
 
                         </section>
                         <div class="see_all_link py-4">
-                            <a href="#">See All</a>
+                            <a href="index.html">See All</a>
                         </div>
                     </div>
                 </section>
     
                 <!-- === Guild Accounts === -->
-                <section class="col-lg-6">
+                <section class="col-lg-6 guild">
                     <div class="box h-100">
                         <div class="orange_box">
                             <h4 class="text-uppercase d-flex justify-content-center align-items-center fw-bold search_heading py-2">
@@ -358,70 +369,79 @@
                         </div>
                         <section class="p-3">
 
-                            <div class="d-flex align-items-center py-2">
-                                <a href="#" class="account_img">
+                            <div class="d-flex align-items-center flex-md-row flex-column py-2">
+                                <a href="index.html" class="account_img">
                                     <img src="assets/img/img2.PNG" width="100%" alt="">
                                 </a>
                                 <div class="accounts_box ps-2 pe-3 py-1">
-                                    <a href="#" class="accounts_heading">
+                                    <div class="pt-md-0 pt-2">
+                                        <a href="index.html" class="accounts_heading">
                                         Guild Accounts
                                     </a>
-                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                    <span class="accounts_subheading">Marvel Strike force Superforce</span>
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center justify-content-center py-md-0 py-2">
                                         <div class="accounts_badge accounts_badge_ldtr">
                                             Ldtr
                                         </div>
                                         <button class="accounts_btn mt-1">
-                                            <img src="assets/img/img4.PNG" width="15px" alt="">
+                                            <img src="assets/img/img4.PNG" class="account_skull_img" alt="">
                                         </button>
                                         <div class="accounts_time">
                                             <span>9:10 EST</span>
-                                            <img src="assets/img/img5.PNG" width="20px" alt="">
+                                            <img src="assets/img/img5.PNG" class="account_flag_img" alt="">
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="d-flex align-items-center py-2">
-                                <a href="#" class="account_img">
+                            <div class="d-flex align-items-center flex-md-row flex-column py-md-2 py-3">
+                                <a href="index.html" class="account_img">
                                     <img src="assets/img/img2.PNG" width="100%" alt="">
                                 </a>
                                 <div class="accounts_box ps-2 pe-3 py-1">
-                                    <a href="#" class="accounts_heading">
+                                    <div class="pt-md-0 pt-2">
+                                        <a href="index.html" class="accounts_heading">
                                         Guild Accounts
                                     </a>
-                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                    <span class="accounts_subheading_silver">Marvel Strike force Superforce</span>
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center justify-content-center py-md-0 py-2">
                                         <div class="accounts_badge accounts_badge_retired">
                                             Retired
                                         </div>
                                         <button class="accounts_btn mt-1">
-                                            <img src="assets/img/img4.PNG" width="15px" alt="">
+                                            <img src="assets/img/img4.PNG" class="account_skull_img" alt="">
                                         </button>
                                         <div class="accounts_time">
                                             <span>9:10 EST</span>
-                                            <img src="assets/img/img5.PNG" width="20px" alt="">
+                                            <img src="assets/img/img5.PNG" class="account_flag_img" alt="">
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="d-flex align-items-center py-2">
-                                <a href="#" class="account_img">
+                            <div class="d-flex align-items-center flex-md-row flex-column py-2">
+                                <a href="index.html" class="account_img">
                                     <img src="assets/img/img2.PNG" width="100%" alt="">
                                 </a>
                                 <div class="accounts_box ps-2 pe-3 py-1">
-                                    <a href="#" class="accounts_heading">
+                                    <div class="pt-md-0 pt-2">
+                                        <a href="index.html" class="accounts_heading">
                                         Guild Accounts
                                     </a>
-                                    <div class="d-flex flex-column align-items-center justify-content-center">
+                                    <span class="accounts_subheading">Marvel Strike force Superforce</span>
+                                    </div>
+                                    <div class="d-flex flex-column align-items-center justify-content-center py-md-0 py-2">
                                         <div class="accounts_badge accounts_badge_ldtr">
                                             Ldtr
                                         </div>
                                         <button class="accounts_btn mt-1">
-                                            <img src="assets/img/img4.PNG" width="15px" alt="">
+                                            <img src="assets/img/img4.PNG" class="account_skull_img" alt="">
                                         </button>
                                         <div class="accounts_time">
                                             <span>9:10 EST</span>
-                                            <img src="assets/img/img5.PNG" width="20px" alt="">
+                                            <img src="assets/img/img5.PNG" class="account_flag_img" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -429,7 +449,7 @@
 
                         </section>
                         <div class="see_all_link py-4">
-                            <a href="#">See All</a>
+                            <a href="index.html">See All</a>
                         </div>
                     </div>
                 </section>
@@ -441,6 +461,9 @@
 
     <!-- === Bootstrap 5.2 JS Link === -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- === jQuery Link === -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
 
     <!-- === JS Link === -->
     <script src="assets/js/index.js"></script>

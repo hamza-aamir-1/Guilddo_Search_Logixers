@@ -99,7 +99,7 @@ body{
     margin: auto;
     grid-gap: 15px;
 }
-.search_tabs_box > a{
+.search_tabs_box > button{
     background-color: var(--orange);
     color: white;
     font-size: 14px;
@@ -111,8 +111,10 @@ body{
     text-decoration: none;
     padding: 5px 15px;
     transition-duration: 0.3s;
+    border: none;
+    outline: none;
 }
-.search_tabs_box > a:hover{
+.search_tabs_box > button:hover{
     background-color: black;
 }
 
@@ -160,7 +162,6 @@ body{
     border-left: none;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     width: 100%;
 }
 .account_img{
@@ -175,6 +176,21 @@ body{
 .accounts_heading:hover{
     text-decoration: underline;
     color: white;
+}
+.accounts_subheading{
+    font-size: 14px;
+    color: var(--orange);
+    display: block;
+}
+.accounts_subheading_silver{
+    font-size: 14px;
+    color: silver;
+    display: block;
+}
+.accounts_username{
+    font-size: 12px;
+    color: silver;
+    display: block;
 }
 .accounts_badge{
     font-size: 10px;
@@ -210,6 +226,12 @@ body{
 .accounts_time > span{
     font-size: 12px;
     color: white;
+}
+.account_skull_img{
+    width: 15px;
+}
+.account_flag_img{
+    width: 20px;
 }
 
 @media screen and (max-width: 992px) {
@@ -254,5 +276,42 @@ body{
     }
     .see_all_link > a{
         font-size: 14px;
+    }
+    .search_tabs_box > button{
+        font-size: 12px;
+    }
+    .timeline_likes{
+        justify-content: center;
+    }
+    .accounts_heading{
+        font-size: 18px;
+    }
+    .account_flag_img{
+        width: 15px;
+    }
+    .account_skull_img{
+        width: 10px;
+    }
+    .accounts_badge{
+        font-size: 8px;
+    }
+    .accounts_subheading{
+        font-size: 12px;
+    }
+    .accounts_subheading_silver{
+        font-size: 12px;
+    }
+    .accounts_username{
+        font-size: 10px;
+    }
+    .accounts_box{
+        flex-direction: column;
+        border-left: 2px solid var(--ferozi);
+        border-radius: 20px;
+        align-items: center;
+        text-align: center;
+    }
+    .account_img{
+        width: 80px;
     }
 }
