@@ -108,6 +108,42 @@ body{
     padding: 5px 15px;
 }
 
+/* === Timeline === */
+.timeline_box{
+    background-color: #181537;
+    width: 90%;
+    margin: auto;
+}
+.timeline_img{
+    width: 50px;
+}
+.timeline_link > div,
+.timeline_link > div > a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.timeline_link > div > a:hover{
+    text-decoration: underline;
+}
+.timeline_msg{
+    color: white;
+    font-size: 16px;
+}
+.timeline_likes{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.timeline_likes > a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.timeline_likes > a:hover{
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 992px) {
     .search_heading{
         font-size: 22px;
@@ -147,5 +183,8 @@ body{
         grid-template-columns: repeat(3, 1fr);
         width: 90%;
         grid-gap: 15px;
+    }
+    .see_all_link > a{
+        font-size: 14px;
     }
 }
