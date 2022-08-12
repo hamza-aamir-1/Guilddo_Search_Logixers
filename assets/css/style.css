@@ -3,6 +3,7 @@
     --dark_blue: #090C31;
     --light_blue: #18153F;
     --orange: #F64A42;
+    --ferozi: #3BFCFE;
 }
 
 *{
@@ -22,6 +23,15 @@ body{
 .orange_box{
     background-color: var(--orange);
     border-radius: 20px 20px 0px 0px;
+}
+.see_all_link{
+    text-align: center;
+}
+.see_all_link > a{
+    color: var(--ferozi);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
 }
 
 /* === Search Section === */
