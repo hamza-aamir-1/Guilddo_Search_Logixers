@@ -114,7 +114,8 @@ body{
     border: none;
     outline: none;
 }
-.search_tabs_box > button:hover{
+.search_tabs_box > button:hover,
+.search_tabs_box > .active{
     background-color: black;
 }
 
